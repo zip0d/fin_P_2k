@@ -1,0 +1,348 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    color: #000000ef;
+    letter-spacing: 0.05em;
+}
+
+section {
+    padding-top: 144px;
+}
+
+* {
+    box-sizing: border-box;
+    /* margin: auto; */
+
+}
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 18px 0;
+    background: #031bf3;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    display: block;
+    width: 244px;
+    margin: 0 auto;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #18dcff;
+}
+
+.btn-ghost {
+    padding: 18px 0;
+    color: #FF3773;
+    border: 1px solid #FF3773;
+    font-size: 16px;
+    font-weight: 800;
+    display: block;
+    width: 329px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.btn-ghost:hover {
+    color: #fff;
+    background: #FF3773;
+    border: 1px solid #FF3773;
+}
+
+.section-title {
+    font-size: 30px;
+    margin-bottom: 89px;
+}
+
+
+
+.mainScreen {
+    background: linear-gradient(224.92deg, rgba(19, 19, 51, 0.18) 17.19%, rgba(40, 39, 74, 0.81) 81.74%), url('https://all-t-shirts.ru/goods_images/ru103214II0007b3ed2222d8007c2f06c64dc28afdaf1.jpg');
+    text-align: center;
+    color: #fff;
+    padding: 77px 0 200px;
+
+}
+
+
+.offer {
+    margin-top: 195px;
+}
+
+.offer__title {
+    font-size: 60px;
+    letter-spacing: 0.22em;
+    line-height: 1.35em;
+}
+
+.offer__intro {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 34px;
+}
+
+.offer__btn {
+    margin: 0 auto;
+}
+
+.arrow-down {
+    background: url('../img/arrow-down.svg');
+    width: 18px;
+    height: 27px;
+    display: block;
+    margin: 239px auto 0;
+    opacity: 0.5;
+    transition: all 0.5s ease;
+
+}
+
+.arrow-down:hover {
+    opacity: 1;
+}
+
+
+
+.destinations {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 89px;
+    gap: 50px;
+}
+
+.destinations__block {
+    width: calc((100% - (50px * 2)) / 3);
+    border: 1px solid #DCDCDC;
+    transition: all 0.5s ease;
+    min-height: 350px;
+    background: #dcfeff7e;
+}
+
+
+
+.destinations__img img {
+    object-fit: fill;
+    width: 100%;
+    height: 358px;
+}
+
+.destinations__wrapper {
+    padding: 52px 35px 147px;
+
+
+}
+
+.destinations__title {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.destinations__desc {
+    line-height: 1.67em;
+}
+
+.destinations__info-wrap {
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.destinations__price {
+    color: #FF3773;
+    font-size: 20px;
+}
+
+.destinations__btn {
+    background: url('../img/arrow-next.svg');
+    width: 25px;
+    height: 21px;
+    display: block;
+    opacity: 0;
+    transition: all 0.5s ease;
+
+}
+
+.destinations__block:hover {
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.13);
+
+}
+
+.destinations__block:hover .destinations__btn {
+    opacity: 1;
+}
+
+
+
+.story-content {
+    background: #F1F1F5 url('../img/photo-1.jpg') no-repeat right / 55%;
+    display: flex;
+}
+
+.story-content__item {
+    font-size: 16px;
+    width: 480px;
+    position: relative;
+    padding-left: 22px;
+    line-height: 1.01em;
+    margin-bottom: 385px;
+}
+
+.Vidospodlodky {
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 480px;
+    position: relative;
+    padding-left: 42px;
+    line-height: 1.01em;
+    margin-bottom: 385px;
+}
+
+
+
+.story-content__item:before {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 40px;
+    background: #9E9EB7;
+    position: absolute;
+    left: 0;
+    background-image: url(background-image:https://media.tenor.com/UjIbf9kYoYoAAAAS/howard-barotrauma.);
+}
+
+.footer {
+    background-color: rgba(34, 34, 30, 0.829);
+    padding: 20px 0;
+}
+
+.end {
+margin: 0 auto;
+padding: 12px 0;
+
+
+}
+
+.nomer,
+.pochta {
+    font-size: 18px;
+    color: rgb(147, 147, 196);
+}
+
+.nomer {
+    margin-right: 15px;
+
+}
+
+.nachala {
+    display: flex;
+    color: rgb(147, 147, 196);
+    gap: 10px;
+    flex-direction: column;
+
+}
+
+
+.header {
+    background-color: rgb(129, 129, 143);
+}
+
+
+
+.nachalo {
+    background-image: url(image.png);
+    padding: 50px;
+}
+
+
+.text_nachala {
+    color: #050000;
+}
+
+.F {
+    color: rgb(207, 23, 23);
+}
+
+
+
+.btn:hover {
+    background: #18dcff;
+}
+
+.megafon {
+    background: linear-gradient(224.92deg, rgba(19, 19, 51, 0.18) 17.19%, rgba(167, 166, 190, 0.705) 81.74%), url(https://i.redd.it/7yoo05wlld541.png);
+    background-attachment: fixed;
+}
+
+/* .destinations__wrapper{
+    background: #dcfbff7e;
+
+} */
+
+
+.mob-menu {
+    position: relative;
+    height: 28px;
+    width: 32px;
+    background: none;
+    border: none;
+    padding: 0;
+
+}
+
+.mob-menu span {
+    background-color: #fff;
+    height: 3px;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+
+
+.mob-menu span:nth-child(1) {
+    top: 0;
+}
+
+.mob-menu span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.mob-menu span:nth-child(3) {
+    bottom: 0;
+}
